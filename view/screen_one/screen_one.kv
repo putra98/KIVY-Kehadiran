@@ -1,0 +1,88 @@
+<ScreenOne>:
+	GridLayout:
+		padding: ['20dp','20dp','20dp','20dp']
+		spacing: '10dp'
+		cols: 2
+		rows: 2
+		MDBoxLayout:
+			orientation: 'vertical'
+			# SmartTileWithStar:
+			ButtonImage:
+				on_press: root.screens('linimasi')
+				source: 'assets/image/qrcode.gif'
+				anim_delay: .08
+
+			MDBoxLayout:
+				adaptive_height: True
+				# md_bg_color: app.theme_cls.primary_light
+				orientation: 'vertical'
+				# size_hint_y: .
+				MDLabel:
+					text: 'Absensi'
+					color: app.theme_cls.primary_color
+					halign: 'center'
+					# font_style: 'Caption'
+					bold: True
+				Widget:
+
+		MDBoxLayout:
+			orientation: 'vertical'
+			ButtonImage:
+				on_press: root.screens('linimasi')
+				source: 'assets/image/linimasi.gif'
+				anim_delay: .08
+
+			MDBoxLayout:
+				adaptive_height: True
+				# md_bg_color: app.theme_cls.primary_light
+				orientation: 'vertical'
+				# size_hint_y: .
+				MDLabel:
+					text: 'Linimasi'
+					color: app.theme_cls.primary_color
+					halign: 'center'
+					bold: True
+				Widget:
+
+		MDBoxLayout:
+			orientation: 'vertical'
+			ButtonImage:
+				on_press: root.screens('linimasi')
+				source: 'assets/image/activity.gif'
+				anim_delay: .08
+
+			MDBoxLayout:
+				adaptive_height: True
+				# md_bg_color: app.theme_cls.primary_light
+				orientation: 'vertical'
+				# size_hint_y: .
+				MDLabel:
+					text: 'Daftar Acara'
+					color: app.theme_cls.primary_color
+					halign: 'center'
+					bold: True
+				Widget:
+
+		MDBoxLayout:
+			orientation: 'vertical'
+			ButtonImage:
+				on_press: root.screens('linimasi')
+				source: 'assets/image/event.gif'
+				anim_delay: .08
+
+			MDBoxLayout:
+				adaptive_height: True
+				# md_bg_color: app.theme_cls.primary_light
+				orientation: 'vertical'
+				# size_hint_y: .
+				MDLabel:
+					text: 'Buat Acara'
+					color: app.theme_cls.primary_color
+					halign: 'center'
+					bold: True
+				Widget:
+
+
+# <ButtonImage>:
+
+<Content>:
